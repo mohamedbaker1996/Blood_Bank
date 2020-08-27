@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tx_intro_slider_1">يتم إجراء العمليات الجراحية العاجلة في أي حال، أما العمليات الجراحية الإختيارية فغالبًا ما يتم تأجيلها بسبب النقص في وحدات الدم. تبرعك ينقذ حياه</string>
+    <string name="tx_intro_slider_2"> معدل الإصابة بالنوبات القلبية والنزيف الدماغي أقل بكثير لدى المتبرعين بالدم مقارنة ببقية السكان.</string>
+    <string name="tx_intro_slider_3">لأشخاص الذين يشكل التبرع بالدم خطر عليهم، مثل مرضى القلب أو مرضى الصرع، وذلك للحفاظ على صحتهم. من ناحية أخرى، فإن التبرع بالدم غير مقبول على الأشخاص الذين قد يكونوا مصابين بأمراض مختلفة، للحفاظ على صحة المحتاجين للتبرع.</string>
+    <string name="tx_mobile">الجوال</string>
+    <string name="tx_password">كلمه المرور</string>
+    <string name="tx_login_st">دخول</string>
+    <string name="tx_login">دخول</string>
+    <string name="tx_name">الاسم</string>
+    <string name="tx_email">البريد الالكتروني</string>
+    <string name="tx_birthdate">تاريخ الميلاد</string>
+    <string name="tx_blood_type">فصيله الدم</string>
+    <string name="tx_last_donation_date">اخر تاريخ للتبرع</string>
+    <string name="tx_goverment">المحافظه</string>
+    <string name="tx_city">المدينه</string>
+    <string name="tx_phone_number">رقم الهاتف</string>
+    <string name="tx_confirm_password">تأكيد كلمه المرور</string>
+    <string name="tx_send">ارسال</string>
+    <string name="tx_new_password">كلمه المرور الجديده</string>
+    <string name="tx_verfication_code">كود التحقق</string>
+    <string name="tx_confirm_new_password">تأكيد كلمه المرور الجديده</string>
+    <string name="tx_change">تغيير</string>
+    <string name="tx_do_not_have_acc">لا تمتلك حساب؟ يمكنك التسجيل من هنا</string>
+    <string name="tx_register">تسجيل</string>
+    <string name="enter_search_words">ادخل كلمه البحث هنا</string>
+    <string name="title">Title</string>
+    <string name="posts">Posts</string>
+    <string name="donations">Donations</string>
+    <string name="GPSAlertDialogTitle">error</string>
+    <string name="GPSAlertDialogMessage">turn on GPS</string>
+    <string name="action_settings">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="register">انشاء حساب جديد</string>
+    <string name="edit_profile">تعديل البيانات</string>
+    <string name="edit">تعديل</string>
+    <string name="select_date">اختر تاريخ</string>
+    <string name="wait">Loading</string>
+
+</resources>

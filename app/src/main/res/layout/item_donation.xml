@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:dragEdge="right"
+    app:mode="same_level">
+
+    <!--Swipe Layout-->
+    <LinearLayout
+        android:layout_width="@dimen/dim_100dp"
+        android:gravity="center"
+        android:layout_height="@dimen/dim_100dp"
+        android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/donation_adapter_img_btn_info"
+        android:layout_width="@dimen/dim_40dp"
+        android:layout_height="@dimen/dim_40dp"
+        android:background="@drawable/shape_circle"
+
+        />
+        <ImageButton
+            android:id="@+id/donation_adapter_img_btn_call"
+            android:layout_width="@dimen/dim_40dp"
+            android:layout_height="@dimen/dim_40dp"
+            android:background="@drawable/shape_circle"
+
+            />
+    </LinearLayout>
+
+    <!--Main Layout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_100dp"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dim_8dp"
+            android:layout_toEndOf="@+id/donation_adapter_tv_blood_type"
+            android:layout_marginStart="-50dp"
+            android:gravity="center"
+            android:background="@drawable/shape_donation">
+
+            <TextView
+                android:id="@+id/donation_adapter_tv_name"
+                style="@style/donation_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/donation_adapter_tv_hospital_address"
+                style="@style/donation_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/donation_adapter_tv_city"
+                style="@style/donation_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/donation_adapter_tv_blood_type"
+            android:layout_width="@dimen/dim_100dp"
+            android:layout_height="@dimen/dim_100dp"
+            android:text="B+"
+            android:gravity="center"
+            android:textSize="@dimen/txt_blood_size"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/shape_circle" />
+
+    </RelativeLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
